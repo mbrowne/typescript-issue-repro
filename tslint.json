@@ -1,0 +1,38 @@
+{
+  "linterOptions": {
+    "exclude": ["**/*.js"]
+  },
+  "extends": ["tslint:recommended", "tslint-react", "tslint-eslint-rules"],
+  "defaultSeverity": "warning",
+  "rules": {
+    "array-type": [true, "array"],
+    "no-unused-variable": true,
+    "variable-name": {
+      "options": [
+        "ban-keywords",
+        "check-format",
+        "allow-pascal-case",
+        "allow-leading-underscore"
+      ]
+    },
+    "trailing-comma": false,
+    "interface-name": false,
+    "jsx-boolean-value": false,
+    "jsx-no-multiline-js": false,
+    "member-access": false,
+    "member-ordering": false,
+    "object-curly-spacing": true,
+    "object-literal-sort-keys": false,
+    "ordered-imports": false,
+    "semicolon": false,
+    "jsx-no-lambda": false,
+    "arrow-parens": false,
+    "object-literal-key-quotes": false,
+    "no-console": false,
+    "comment-format": false,
+    "max-classes-per-file": false,
+    "max-line-length": false,
+    "quotemark": [true, "single", "jsx-double", "avoid-escape"],
+    "whitespace": false
+  }
+}
